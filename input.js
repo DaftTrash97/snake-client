@@ -22,7 +22,7 @@ const handleUserInput = function(data) {
   } else if (data === 'd') {
     connection.write("Move: right");
   } else if (data === '1') {
-    connection.write("Say: Greetings pesant");
+    connection.write("Say: Hey there! Welcome!");
   } else if (data === '2') {
     connection.write("Say: Enjoy my creation!");
   } else if (data === '3') {
